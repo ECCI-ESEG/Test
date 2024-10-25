@@ -1,0 +1,11 @@
+C:\Test\Problemas\bin\Debug\net7.0\Problemas.deps.json
+C:\Test\Problemas\bin\Debug\net7.0\Problemas.dll
+C:\Test\Problemas\bin\Debug\net7.0\Problemas.pdb
+C:\Test\Problemas\obj\Debug\net7.0\Problemas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Test\Problemas\obj\Debug\net7.0\Problemas.AssemblyInfoInputs.cache
+C:\Test\Problemas\obj\Debug\net7.0\Problemas.AssemblyInfo.cs
+C:\Test\Problemas\obj\Debug\net7.0\Problemas.csproj.CoreCompileInputs.cache
+C:\Test\Problemas\obj\Debug\net7.0\Problemas.dll
+C:\Test\Problemas\obj\Debug\net7.0\refint\Problemas.dll
+C:\Test\Problemas\obj\Debug\net7.0\Problemas.pdb
+C:\Test\Problemas\obj\Debug\net7.0\ref\Problemas.dll
