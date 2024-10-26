@@ -35,6 +35,9 @@ jobs:
         run: |
           mkdir -p .\.sonar\scanner
           dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
+      - name: Install libicu
+        run: sudo apt-get update && sudo apt-get install -y libicu-dev
+
       - name: Build and analyze
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
