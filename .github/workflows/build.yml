@@ -40,6 +40,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
         shell: bash
         run: |
-          ./.sonar/scanner/dotnet-sonarscanner begin /k:"ECCI-ESEG_Test_AZLEs-kFPzDIfHMrPBLz" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
+          /home/ubuntu/.dotnet/tools/dotnet-sonarscanner begin /k:"ECCI-ESEG_Test_AZLEs-kFPzDIfHMrPBLz" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
           dotnet build
-          ./.sonar/scanner/dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+          /home/ubuntu/.dotnet/tools/dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
